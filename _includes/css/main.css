@@ -343,7 +343,6 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -442,4 +441,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.description {
+    text-align: left;
 }
